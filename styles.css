@@ -1,0 +1,381 @@
+body {
+    margin: 0px 20px 20px 20px;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .container {
+    width: 1280px;
+    height: 879px;
+    background-color: #FFFFFF;
+  }
+
+  .flex1 {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .flex2 {
+    display: flex;
+    flex-direction: row;
+    gap: 27px;
+ }
+
+  
+  .taskbar {
+    width: 1280px;
+    height: 50px;
+    background-color: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .menu {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .menu p {
+    margin: 0;
+    font-size: 15px;
+    font-weight: medium;
+    margin-left: 80px;
+  }
+  
+  .judul {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .judul h1 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .text {
+    font-size: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+
+  .subtext {
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+  }
+  
+  .content {
+    display: flex;
+    margin-top: 50px;
+  }
+  
+  .conten_kiri {
+    margin-right: 15px;
+    margin-left: 100px;
+  }
+  
+  .rectangle_tentara {
+    width: 490px;
+    height: 180px;
+    background-color: #D5FFDD;
+    border-radius: 20px;
+    display: flex;
+  }
+  
+  .image {
+    margin-top: -48px;
+  }
+  
+  .image img {
+    width: 230px;
+    height: 230px;
+  }
+  
+  .title_tentara {
+    margin: 0;
+    font-size: 32px;
+    margin-top: -15px;
+    margin-left: -30px;
+  }
+  
+  .deskripsi {
+    margin: 0;
+    font-size: 14px;
+    margin-left: -30px;
+  }
+  
+  button {
+    width: 240px;
+    height: 37px;
+    background-color: #399349;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-top: 42px;
+    margin-left: -30px;
+  }
+
+    .rectangle_pengangguran {
+    width: 235px;
+    height: 180px;
+    background-color: #FFF4DC;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    }
+
+    .rectangle_pramugari {
+    width: 235px;
+    height: 180px;
+    background-color: #FFCED7;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    }
+
+    .rectangle_pengangguran .image,
+    .rectangle_pramugari .image {
+    margin-top: 12px;
+    margin-left: 30px;
+    }
+
+    .rectangle_pengangguran .image img,
+    .rectangle_pramugari .image img {
+    width: 170px;
+    height: 170px;
+    }
+
+    .rectangle_pengangguran button{
+    width: 173px;
+    height: 37px;
+    background-color: #E29A00;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-top: 120px;
+    margin-left: -194px;
+    }
+
+    .rectangle_pramugari button {
+        width: 173px;
+        height: 37px;
+        background-color: #FF5573;
+        color: #FFFFFF;
+        border: none;
+        border-radius: 15px;
+        font-size: 20px;
+        margin-top: 120px;
+        margin-left: -194px;
+    }
+
+    .rectangle_fotografer {
+        width: 230px;
+        height: 378px;
+        background-color: #E2F2FF;
+        border-radius: 20px;
+        margin-top: 20px;
+        /* display: flex; */
+        justify-items: center ;
+    }
+
+      .title_kangfoto {
+        font-size: 20px;
+      }
+      
+      .deskripsi_kangfoto {
+        margin: 5;
+        font-size: 14px;
+        text-align: center;
+      }
+    
+    .rectangle_fotografer .image {
+        margin-top: 32px;
+        margin-left: 36px;
+    }
+    
+    .rectangle_fotografer .image img {
+        width: 170px;
+        height: 170px;
+    }
+    
+    .rectangle_fotografer button {
+        width: 173px;
+        height: 37px;
+        background-color: #3279AF;
+        color: #FFFFFF;
+        border: none;
+        border-radius: 15px;
+        font-size: 20px;
+        margin-left: -194px;
+    }
+
+    .rectangle_kanan {
+      padding: 10px;
+        width: 500px;
+        height: 388px;
+        background-color: #F4F4F4;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px; 
+        margin-left: 10px;
+    }
+
+    .rectangle_dokter{
+      width: 423px;
+      height: 96px;
+      background-color: #FFFFFF; 
+      border: 2px #D8D6C1;
+      border-radius: 20px;
+      margin: 20px 0px;
+      display: flex;
+      margin-bottom: 10px;
+    }
+
+    .rectangle_pilot {
+      width: 423px;
+      height: 96px;
+      background-color: #FFFFFF; 
+      border: 2px #D8D6C1;
+      border-radius: 20px;
+      margin-top: 27px;
+      display: flex;
+      margin-top: 15px;
+      margin-bottom: 20px;
+    }
+
+    .rectangle_ilmuan {
+        width: 423px;
+        height: 96px;
+        background-color: #FFFFFF; 
+        border: 2px #D8D6C1;
+        border-radius: 20px;
+        margin-top: 27px;
+        display: flex;
+        margin-top: 5px;
+        margin-bottom: 20px;
+      }
+    
+    .rectangle_dokter .image,
+    .rectangle_pilot .image,
+    .rectangle_ilmuan .image {
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+
+    .rectangle_dokter .image img,
+    .rectangle_pilot .image img,
+    .rectangle_ilmuan .image img {
+      width: 70px;
+      height: 70px;
+    }
+    
+    .title_dokter,
+    .title_pilot,
+    .title_ilmuan {
+      margin: 0;
+      margin-bottom: 5px;
+    }
+    
+    .rectangle_dokter button,
+    .rectangle_pilot button,
+    .rectangle_ilmuan button {
+      width: 149px;
+      height: 22px;
+      background-color: #D8D6C1; 
+      color: #FFFFFF;
+      border: none;
+      border-radius: 15px;
+      font-size: 12px;
+      margin-top: 60px;
+      margin-left: -60px;
+      margin-right: 20px;
+    }
+    
+    .rectangle_kanan2 {
+        width: 500px;
+        height: 168px;
+        background-color: #F4F4F4;
+        border-radius: 20px;
+        display: flex;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    
+    .rectangle_pembalap image,
+    .rectangle_astro{
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+
+    .rectangle_pembalap,
+    .rectangle_astro .image img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .title_pembalap,
+    .rectangle_astro {
+        margin: 0;
+        margin-bottom: 5px;
+    }
+
+    .rectangle_pembalap,
+    .rectangle_astro button {
+        width: 100px;
+        height: 55px;
+        background-color: #D8D6C1;
+        color: #FFFFFF;
+        border: none;
+        font-size: 15px;
+        margin-left: -100px;
+        margin-bottom: -50px;
+    }
+    .box{
+      width: 490px;
+      height: 120px;
+      background-color: #F4F4F4;
+      display: flex;
+      padding: 1em;
+      border-radius: 20px;
+      justify-content:space-around;
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+    .img-sm{
+      height: 2px;
+    }
+    .containers{
+      display: flex;
+    }
+    .btn-sm{
+      width: 9em;
+      font-size: medium;
+      margin: 5px 0px;
+      background-color: #D8D6C1;
+
+    }
+    .title{
+      font-size: 20px;
+      margin: 0px;
+    }
+    .desc{
+      margin-left: 10px;
+    }
+    
+    @media (min-width: 320px) and (max-width: 424px),
+    (min-width: 425px) and (max-width: 1279px) {
+    .navbar {
+      top: auto;
+      bottom: 0;
+    }
+    .navbar a {
+      margin: 0 8px;
+    }
+  }      
